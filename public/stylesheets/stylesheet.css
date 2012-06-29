@@ -1,0 +1,437 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: georgia;
+	font-size: 9pt;
+	background: #b9b9b9;
+	height: 100%;
+}
+a
+{
+	outline: none;
+	text-decoration: none;
+	color: inherit;
+}
+h1,h2,h3
+{
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+h3
+{
+	font-size: 250%;
+	text-align: right;
+	padding-right: 0.5em;
+}
+header
+{
+	display: block;
+	background: #fff url(../images/bg_header.jpg) 0px 0px repeat-x;
+	margin: 0px;
+	border-top: 4px solid #fff;
+	padding: 3em 0em;
+}
+body.home header
+{
+	padding: 6em 0em;
+}
+header h1
+{
+	background: url(../images/rubylogo.png) 10px 0.2em no-repeat;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 80px;
+	display: block;
+	font-size: 600%;
+	font-weight: normal;
+}
+span.dark
+{
+	color: #999;
+}
+span.dark2
+{
+	color: #666;
+}
+a.dark2
+{
+	color: #666 !important;
+	font-size: 100% !important;
+}
+
+.center
+{
+	display: block;
+	text-align: left;
+	width: 90%;
+	max-width: 1200px;
+	min-width: 920px;
+	margin: auto;
+	overflow:hidden;
+}
+div.border
+{
+	height: 1em;
+}
+div.top-border
+{
+	background: url(../images/bg_minibar_top.jpg) top left repeat-x;
+}
+div.bottom-border
+{
+	background: url(../images/bg_minibar_bottom.jpg) top left repeat-x;
+}
+div.body
+{
+	color: #999;
+	padding: 0;
+	padding-top: 3em;
+	padding-bottom: 6em;
+	background: #000 url(../images/bg_darkgrain.jpg) bottom left repeat-x;
+	overflow: hidden;
+}
+div.padder
+{
+	padding: 0em 2em;
+}
+div.left
+{
+	width: 65%;
+	overflow: hidden;
+	float: left;
+}
+div.half
+{
+	width: 49%;
+	float: left;
+}
+body.home div.body div.left,
+body.work div.body div.left
+{
+	overflow: hidden;
+	clear: both;
+	width: 80%;
+}
+body.home div.body .item,
+body.work div.body .item
+{
+	display: block;
+	border-bottom: 1px solid rgb(30,30,30);
+	overfloW: hidden;
+	padding: 0.5em;
+	padding-right: 19%;
+}
+body.home div.body .item:hover,
+body.work div.body .item:hover
+{
+	color: #fff;
+	background: rgba(100,100,100,0.1);
+}
+h2,
+#right a
+{
+	text-decoration: none;
+	color: #ccc;
+	margin: 0;
+	font-weight: normal;
+	font-size: 300%;
+	height: 100%;
+	margin: 0;
+	word-spacing: -0.1em;
+}
+#right .subnav a
+{
+	padding: 0.1em 0.5em;
+	color: #999;
+	display: block;
+	border-bottom: 1px solid #222;
+	border-top: 1px solid #222;
+	margin-bottom:-1px;
+}
+#right .subnav a:hover
+{
+	color: #fff;
+	background: rgba(255,255,255,0.05);
+}
+#right .subnav a:hover .dark2
+{
+	color: #999;
+}
+#right .subnav
+{
+	padding: 1em 0em;
+}
+#right .subnav a.selected
+{
+	background: rgba(255,255,255,0.1);
+	color: #fff;
+	background: #000 url(../images/bg_darkgrain.jpg) top left repeat-x;
+}
+body.home  div.body h2,
+body.about  div.body h2,
+body.work  div.body h2
+{
+	padding-right: 0.3em;
+	text-align: right;
+}
+div.body h2
+{
+	font-size: 400%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+	text-shadow: #000 1px 1px 10px;
+
+}
+div.secondary-body
+{
+	border-top: 5px solid #000;
+	padding: 1em 0em;
+	background: url(../images/bg_woodgrain.png) top left ;
+	overflow: hidden;
+	color: #333;
+	clear: both;
+}
+p
+{
+	line-height: 180%;	
+	font-size: 90%;
+	font-family: helvetica, arial, verdana;
+}
+body.home p
+{
+	line-height: 150%;
+}
+/*
+p:first-letter
+{
+	font-family: georgia;
+	color: #666;
+	font-size: 200%;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-right: 0.1em;
+	padding-top: 0.1em;
+	margin-bottom: 0.2em;
+	text-transform: lowercase;
+}
+*/
+p:first-line
+{
+	font-family: georgia;
+	color: #666;
+	font-size: 1.5em;
+}
+
+#right,
+#contact-button
+{
+	width: 23em;
+	position: absolute;
+	margin-left: 14em;
+	left: 50%;
+}
+#right
+{
+	background: #999;
+	top: 11em;
+	padding:  0em 0em 0em;	
+	color: #999;
+}
+body.home #right
+{
+	
+	top: 17em;	
+}
+#right p
+{
+	padding: 0.2em 1em ;
+}
+#right .black p:hover
+{
+	color: #fff;
+	background: url(../images/bg_woodgrain.png);
+}
+body.home div.body a
+{
+	color: #999;
+}
+.white, .grey,.black
+{
+	padding: 2em 2em 2em;
+	background: #999;
+	height: inherit;
+}
+.subnav,.black
+{
+	background: black;
+}
+.grey
+{
+	color: #333;
+	background: #999 url(../images/contactarrow.png) 50% -5px  no-repeat;;
+}
+.white
+{
+	background: white;
+	padding-top: 1em;
+	
+		background: #fff url(../images/contactarrowblack.png) 50% -5px no-repeat;;
+}
+#contact-button
+{
+	cursor:pointer;
+	top: 0em;
+	overflow: hidden;
+	padding-bottom: 12px;
+	background: url(../images/contactarrow.png) bottom center no-repeat;;
+}
+#contact-button h2
+{
+	color: #ccc;
+	font-size: 230%;
+	display: block;
+	padding: 0.3em 0.5em;
+	background: #fff;
+}
+body.work div.body  .folio
+{
+	margin-top: 1em;
+	opacity: 1;
+}
+/*
+body.work div.body .folio:hover
+{
+	opacity: 1;
+}
+*/
+.folio
+{
+	overflow: hidden;
+	border: 2px solid #ccc;
+	height: 80px;
+}
+footer
+{
+	background: url(../images/bg_footer.jpg) bottom left repeat;
+	overflow: hidden;
+	color: #333;
+	display: block;
+	padding: 2em 0em 6em;
+}
+footer p:first-line
+{
+	color: #000 !important;
+}
+
+dl
+{
+	display: block;
+}
+dt,dd
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+dt
+{
+	font-size: 70%;
+	color: #666;
+	font-family: helvetica, arial;
+	text-transform: uppercase;
+}
+dd
+{
+	font-style: italic;
+	margin-bottom: 0.5em;
+}
+#right .grey ul li,
+#right .grey ul,
+#right .grey ul li a
+{
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#right .grey ul li a
+{
+	padding: 0.2em 0.5em;
+	font-size: 120%;
+	color: #444;
+	border-bottom: 1px solid #666;
+	border-top: 1px solid #666;
+	margin-bottom: -1px;
+}
+#right .grey ul li a:hover
+{	
+	background: #000;
+	color: #fff;
+}
+#contact-button h2
+{
+	margin: 0;
+	text-align: center;
+	padding-bottom: 0;
+	padding-bottom: 0.2em;
+}
+#contact-button .half,
+#contact-button dl,
+#contact-button dt
+{
+	padding: 0;
+	margin: 0;
+	color: #666;
+}
+#contact-area
+{
+	display: none;
+	background: #fff;
+	margin: 0;
+	padding-right: 1em;
+	overflow: hidden;
+}
+#copyright
+{
+	color: #666;
+	text-align: right;
+	width: 230px;
+	padding-bottom: 5px;
+}
+#copyright a
+{
+	font-size: 100%;
+}
+
+.rubyred
+{
+  color: #b20400
+}
+
+#twitter a 
+{
+  font-size: 1em;
+}
+#twitter ul 
+{
+  list-style-type: none;
+  padding-left: 10px;
+}
+.twitEntry
+{
+  margin-bottom: 13px;
+}
+.twitNavi, .twitHeader 
+{
+  display: none;
+}
+a.folio-link
+{
+  color: white; 
+}

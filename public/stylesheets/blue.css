@@ -1,0 +1,22 @@
+div.top-border
+{
+	border-bottom: 3px solid blue;
+}
+#right .subnav a.selected .dark2
+{
+	color: blue;
+}
+body.home div.body .item:hover p:first-letter,
+body.home div.body .item:hover p:first-line
+{
+	color: blue;
+}
+body.home div.body .item:hover .dark2
+{
+	color: blue;
+}
+#right .black p:hover:first-letter,
+#right .black p:hover:first-line
+{
+	color: blue;
+}

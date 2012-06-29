@@ -1,0 +1,21 @@
+div.top-border
+{
+	border-bottom: 3px solid #f3c;
+}
+div.bottom-border
+{
+	border-top: 3px solid #f3c;
+}
+body.home div.body .item:hover p:first-letter,
+body.home div.body .item:hover p:first-line,
+body.work div.body .item:hover p:first-letter,
+body.work div.body .item:hover p:first-line,
+body.work div.body .item:hover .dark2,
+body.home div.body .item:hover .dark2,
+#right .black p:hover:first-letter,
+#right .black p:hover:first-line,
+#right .grey ul li a:hover,
+#right .subnav a.selected .dark2
+{
+	color: #f39 !important;
+}

@@ -1,0 +1,22 @@
+div.top-border
+{
+	border-bottom: 3px solid lime;
+}
+#right .subnav a.selected .dark2
+{
+	color: lime;
+}
+
+body.home div.body .item:hover p:first-line
+{
+	color: lime;
+}
+body.home div.body .item:hover .dark2
+{
+	color: lime;
+}
+
+#right .black p:hover:first-line
+{
+	color: lime;
+}

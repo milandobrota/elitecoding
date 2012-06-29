@@ -1,0 +1,22 @@
+div.top-border
+{
+	border-bottom: 3px solid yellow;
+}
+#right .subnav a.selected .dark2
+{
+	color: yellow;
+}
+body.home div.body .item:hover p:first-letter,
+body.home div.body .item:hover p:first-line
+{
+	color: yellow;
+}
+body.home div.body .item:hover .dark2
+{
+	color: yellow;
+}
+#right .black p:hover:first-letter,
+#right .black p:hover:first-line
+{
+	color: yellow;
+}
