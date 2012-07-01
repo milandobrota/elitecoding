@@ -7,7 +7,6 @@ $root = ::File.dirname(__FILE__)
 class SinatraStaticServer < Sinatra::Base  
 
   get(/.+/) do
-    raise ENV['RACK_ENV'].inspect
     send_sinatra_file(request.path) {404}
   end
 
