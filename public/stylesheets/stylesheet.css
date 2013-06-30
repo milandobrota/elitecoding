@@ -314,6 +314,7 @@ body.work div.body .folio:hover
 	overflow: hidden;
 	border: 2px solid #ccc;
 	height: 80px;
+  max-width: 310px;
 }
 footer
 {
